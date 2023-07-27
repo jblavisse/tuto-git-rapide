@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+}
+
+#header {
+    box-sizing: border-box;
+}
+
+.header1 {
+    background-color: #782221;
+    width: 1160px;
+    height: 350px;
+    box-sizing: border-box;
+}
+
+.header2 {
+    background-color: #2c1d27;
+    width: 1160px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    -webkit-text-fill-color: white;
+}
+
+.address {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.portrait {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.text-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    -webkit-text-fill-color: white;
+}
